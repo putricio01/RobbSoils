@@ -11,130 +11,48 @@ import Secure from '../assets/lock.svg'
 
 ---
 
-
-<section class="product-brief" id="features">
+<section class="product-brief" id="Características">
     <div class="container">
-
 
         <!-- Feature Two -->
         <div class="row product-brief-items">
-            <div class="brief-media center one-half column">
-                <img src={VectorTwo} class="md-width">
-            </div>
+          <div class="brief-tab column center-full">
+              <h3 class="h2-title highlighted">Características.</h3>
+              <p class="m-paragraph m-margin highlighted">Los selladores de biopolímeros crean una barrera protectora contra hongos, corrosión por ácidos y daño por salitre, extendiendo la vida útil de las estructuras. Resisten la degradación y protegen contra humedad, radiación UV y cambios de temperatura. Hechos de recursos renovables, son sostenibles, fáciles de aplicar, y reducen tiempo y costos de mano de obra. Además, aportan un acabado limpio y estético, mejorando la apariencia y la protección.</p>
 
-            <div class="brief-tab one-half column">
-                <h3 class="h2-title">Better, together.</h3>
-                <p class="m-paragraph m-margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
-
-                <div class="brief-items">
-                 <div class="row m-margin">
-                    <div class="one-half column feature-grid">
-                        <img src={Bolt} alt="Fast connect">
-                        <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                    <div class="one-half column feature-grid">
-                        <img src={Money} alt="Money transfer">
-                        <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="one-half column feature-grid">
-                        <img src={Wallet} alt="Digital wallet">
-                        <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                    <div class="one-half column feature-grid">
-                        <img src={Secure} alt="Secure connection">
-                        <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                </div>
+              <div class="brief-items">
+                  <div class="row m-margin">
+                      <div class="one-half column feature-grid highlighted">
+                          <img src={Bolt} alt="Fast connect">
+                          <p class="s-paragraph ">Proteccion contra rayos UV.</p>
+                      </div>
+                      <div class="one-half column feature-grid highlighted">
+                          <img src={Money} alt="Money transfer">
+                          <p class="s-paragraph ">Previene la proliferación de hongos</p>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="one-half column feature-grid highlighted">
+                          <img src={Wallet} alt="Digital wallet">
+                          <p class="s-paragraph ">Resistente al agua y a la humedad.</p>
+                      </div>
+                      <div class="one-half column feature-grid highlighted">
+                          <img src={Secure} alt="Secure connection">
+                          <p class="s-paragraph ">Elaborados con recursos naturales y renovables.</p>
+                      </div>
+                  </div>
               </div>
-            </div>
-        </div>
-   
-        <!-- Feature One -->
-        <div class="row product-brief-items">
-            <div class="brief-tab one-half column">
-                <h3 class="h2-title">Better, together.</h3>
-                <p class="m-paragraph m-margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
-
-
-               <div class="brief-items">
-                 <div class="row m-margin">
-                    <div class="one-half column feature-grid">
-                        <img src={Bolt} alt="Fast connect">
-                        <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                    <div class="one-half column feature-grid">
-                        <img src={Money} alt="Money transfer">
-                        <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="one-half column feature-grid">
-                        <img src={Wallet} alt="Digital wallet">
-                        <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                    <div class="one-half column feature-grid">
-                        <img src={Secure} alt="Secure connection">
-                        <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="brief-media center one-half column">
-                <img src={VectorOne} class="md-width">
-            </div>
-        </div>
-
-
-
-     <!-- Feature One -->
-      <div class="row product-brief-items">
-
-        <div class="brief-media center one-half column">
-            <img src={VectorThree} class="md-width">
-        </div>
-        
-         <div class="brief-tab one-half column">
-            <h3 class="h2-title">Better, together.</h3>
-            <p class="m-paragraph m-margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
-
-
-            <div class="brief-items">
-                <div class="row m-margin">
-                <div class="one-half column feature-grid">
-                    <img src={Bolt} alt="Fast connect">
-                    <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur.</p>
-                </div>
-                <div class="one-half column feature-grid">
-                    <img src={Money} alt="Money transfer">
-                    <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="one-half column feature-grid">
-                    <img src={Wallet} alt="Digital wallet">
-                    <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur.</p>
-                </div>
-                <div class="one-half column feature-grid">
-                    <img src={Secure} alt="Secure connection">
-                    <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur.</p>
-                </div>
-            </div>
           </div>
         </div>
-
-      </div>
-
     </div>
- </section>
+</section>
 
-
- <style lang="scss">
-
+<style lang="scss">
 .product-brief{
   background-color: var(--tenary);
+  background-image: url('../assets/tu-imagen.jpg');
+  background-size: cover;
+  background-position: center;
   .hero-brand{
     padding-bottom: 50px;
     .brands{
@@ -154,7 +72,7 @@ import Secure from '../assets/lock.svg'
       margin: 0 0 0 10px;
     }
     img{
-      width: 25px;
+      width: 50px;
       margin-top: -10px;
     }
   }
@@ -167,10 +85,15 @@ import Secure from '../assets/lock.svg'
     padding-top: 40px;
   }
 
+  .highlighted{
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 5px;
+  }
+  
   @media (max-width:700px) {
     .brief-tab{
         margin-left: 20px;
     }
   }
 }
- </style>
+</style>
