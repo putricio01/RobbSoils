@@ -9,14 +9,15 @@ import Logo from '../assets/raak.svg';
              <img src={Logo} alt="Brand logo">
          </a>
      </div>
-     <nav class="two-thirds column">
+     <nav class="one-third column">
          <ul class="center flex">
              <li><a href="#Características">Características</a></li>
-             <li><a href="#galería">Galería</a></li>
-             <li><a href="#contactos">Contactos</a></li>
-             <li><a href="/docs/ficha-tecnica.pdf" target="_blank">Ficha Técnica</a></li> <!-- Ahora tiene el mismo formato -->
+             <li><a href="#Galería">Galería</a></li>
+             <li><a href="#Contactos">Contactos</a></li>
+             <li><a href="/docs/ficha-tecnica.pdf" target="_blank" rel="noopener noreferrer">Ficha Técnica</a></li> <!-- Now opens PDF -->
          </ul>
      </nav>
+     <div class="nav-cta one-third column"></div>
     </div>
 </header>
 
@@ -34,7 +35,7 @@ import Logo from '../assets/raak.svg';
       color: #111;
       padding: 0 20px;
       text-decoration: none;
-      font-weight: normal; /* Se mantiene igual que los otros enlaces */
+      font-weight: normal;
       transition: color 0.3s ease;
     }
     a:hover {
