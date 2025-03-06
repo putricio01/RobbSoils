@@ -1,5 +1,5 @@
 ---
-import Logo from '../assets/raak.svg'
+import Logo from '../assets/raak.svg';
 ---
 
 <header class="nav">
@@ -9,49 +9,50 @@ import Logo from '../assets/raak.svg'
              <img src={Logo} alt="Brand logo">
          </a>
      </div>
-     <nav class="one-third column">
+     <nav class="two-thirds column">
          <ul class="center flex">
              <li><a href="#Características">Características</a></li>
-             <li><a href="#pricing">Pricing</a></li>
-             <li><a href="#customers">Customers</a></li>
+             <li><a href="#galería">Galería</a></li>
+             <li><a href="#contactos">Contactos</a></li>
+             <li><a href="/docs/ficha-tecnica.pdf" target="_blank">Ficha Técnica</a></li> <!-- Ahora tiene el mismo formato -->
          </ul>
      </nav>
-     <div class="nav-cta one-third column">
-       
-         
-     </div>
     </div>
- </header>
+</header>
 
-
- <style lang="scss">
-
-.nav{
+<style lang="scss">
+.nav {
     padding: 15px 0;
-    li{
+    li {
       list-style: none;
       margin-top: 7px;
     }
-    .nav-cta{
+    .nav-cta {
       text-align: right;
     }
-    a:not(.button):not(.logo-link){
+    a:not(.logo-link) {
       color: #111;
       padding: 0 20px;
       text-decoration: none;
+      font-weight: normal; /* Se mantiene igual que los otros enlaces */
+      transition: color 0.3s ease;
     }
-    .logo-link img{
+    a:hover {
+      color: #007bff;
+    }
+    .logo-link img {
       width: 180px;
       margin-top: 10px;
     }
-    @media (max-width:700px) {
-      nav{
+
+    @media (max-width: 700px) {
+      nav {
         display: none;
       }
-      .nav-cta{
+      .nav-cta {
         position: absolute;
         right: 20px;
       }
     }
-  } 
- </style>
+}
+</style>
